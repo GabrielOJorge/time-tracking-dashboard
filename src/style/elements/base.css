@@ -1,15 +1,30 @@
 body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: var(--clr-very-dark-blue);
 }
 
 main {
-  height: 100vh;
   display: grid;
   grid-template-columns: 25rem 25rem 25rem 25rem;
   grid-template-rows: 25vh 25vh;
   grid-template-areas: "profile-card work play study"
                        "profile-card exercise social self-care";
-  justify-content: center;
-  align-content: center;
+  /* justify-content: center;
+  align-content: center; */
   gap: 2rem;
+}
+
+h1, h2, h3, button, input {
+  font-family: 'Rubik', sans-serif;
+  color: #fff;
+}
+
+button {
+  border-style: none;
+  background: none;
+  cursor: pointer;
 }
