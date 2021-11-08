@@ -3,11 +3,13 @@ body {
 }
 
 main {
+  height: 100vh;
   display: grid;
   grid-template-columns: 25rem 25rem 25rem 25rem;
   grid-template-rows: 25vh 25vh;
   grid-template-areas: "profile-card work play study"
                        "profile-card exercise social self-care";
-  height: 100vh;
-  width: 100vw;
+  justify-content: center;
+  align-content: center;
+  gap: 2rem;
 }
