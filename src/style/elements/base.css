@@ -9,12 +9,10 @@ body {
 
 main {
   display: grid;
-  grid-template-columns: 25rem 25rem 25rem 25rem;
-  grid-template-rows: 25vh 25vh;
+  grid-template-columns: repeat(4, 24rem);
+  grid-template-rows: repeat(2, 23rem);
   grid-template-areas: "profile-card work play study"
                        "profile-card exercise social self-care";
-  /* justify-content: center;
-  align-content: center; */
   gap: 2rem;
 }
 
