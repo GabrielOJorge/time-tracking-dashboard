@@ -1,0 +1,19 @@
+.card-wrapper {
+  grid-column: card-wrapper;
+  
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2rem;
+}
+
+.top {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 2rem;
+}
+
+.bottom {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 2rem;
+}
