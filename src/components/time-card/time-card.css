@@ -2,45 +2,61 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  border-radius: 2rem;
 }
 
 .time {
   display: flex;
-  flex-direction: column;
-  padding: 3.8rem;
+  align-items: flex-start;
+  justify-content: space-between;
   background-color: var(--clr-dark-blue);
+  border-radius: 1.5rem;
+  padding: 3rem 2.5rem 3rem;
 }
 
-.time h2 {
-  font-size: clamp(1.6rem, 1.8rem, 2vw);
-  font-weight: 500;
+.time .info {
+  display: flex;
+  flex-direction: column;
 }
 
 .time h1 {
   font-size: clamp(4.5rem, 5rem, 10vw);
   font-weight: 300;
+  margin-bottom: 1.4rem;
 }
+
+.time h2 {
+  font-size: clamp(1.6rem, 1.8rem, 2vw);
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+}
+
+.time h3 {
+  color: var(--clr-pale-blue);
+  font-size: clamp(1.2rem, 1.4rem, 2vw);
+}
+
 
 .time-card.-work {
-  background: url(../../assets/images/icon-work.svg) no-repeat top right var(--clr-light-orange);
+  background: url(../../assets/images/icon-work.svg) no-repeat top -10px right 20px var(--clr-light-orange);
 }
 
-/* .time-card.-play {
-  
+.time-card.-play {
+background: url(../../assets/images/icon-play.svg) no-repeat top -10px right 20px var(--clr-soft-blue);
 }
 
 .time-card.-study {
-  
+  background: url(../../assets/images/icon-study.svg) no-repeat top -10px right 20px var(--clr-light-red);
 }
 
 .time-card.-exercise {
-  
+  background: url(../../assets/images/icon-exercise.svg) no-repeat top -10px right 20px var(--clr-lime-green);
 }
 
 .time-card.-social {
-  
+  background: url(../../assets/images/icon-social.svg) no-repeat top -10px right 20px var(--clr-violet);
 }
 
 .time-card.-self-care {
-  
-} */
+  background: url(../../assets/images/icon-self-care.svg) no-repeat top -10px right 20px var(--clr-soft-yellow);
+}
