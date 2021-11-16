@@ -1,8 +1,31 @@
-/* .time-card.-work {
-
+.time-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-.time-card.-play {
+.time {
+  display: flex;
+  flex-direction: column;
+  padding: 3.8rem;
+  background-color: var(--clr-dark-blue);
+}
+
+.time h2 {
+  font-size: clamp(1.6rem, 1.8rem, 2vw);
+  font-weight: 500;
+}
+
+.time h1 {
+  font-size: clamp(4.5rem, 5rem, 10vw);
+  font-weight: 300;
+}
+
+.time-card.-work {
+  background: url(../../assets/images/icon-work.svg) no-repeat top right var(--clr-light-orange);
+}
+
+/* .time-card.-play {
   
 }
 
