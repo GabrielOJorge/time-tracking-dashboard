@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: flex-end;
   border-radius: 2rem;
+  width: 25rem;
 }
 
 .time {
@@ -12,11 +13,6 @@
   background-color: var(--clr-dark-blue);
   border-radius: 1.5rem;
   padding: 3rem 2.5rem 3rem;
-}
-
-.time .info {
-  display: flex;
-  flex-direction: column;
 }
 
 .time h1 {

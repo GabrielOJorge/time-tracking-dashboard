@@ -1,8 +1,5 @@
 .card-wrapper {
-  grid-column: card-wrapper;
-  
   display: grid;
-  grid-auto-flow: row;
   gap: 2rem;
 }
 
