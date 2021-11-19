@@ -38,23 +38,23 @@
 
 
 .time-card.-work {
-  background: url(../../assets/images/icon-work.svg) no-repeat top -10px right 20px var(--clr-light-orange);
+  background: url(../../assets/images/icon-work.svg) no-repeat top -9px right 20px var(--clr-light-orange);
 }
 
 .time-card.-play {
-background: url(../../assets/images/icon-play.svg) no-repeat top -10px right 20px var(--clr-soft-blue);
+background: url(../../assets/images/icon-play.svg) no-repeat top -3px right 20px var(--clr-soft-blue);
 }
 
 .time-card.-study {
-  background: url(../../assets/images/icon-study.svg) no-repeat top -10px right 20px var(--clr-light-red);
+  background: url(../../assets/images/icon-study.svg) no-repeat top -5px right 20px var(--clr-light-red);
 }
 
 .time-card.-exercise {
-  background: url(../../assets/images/icon-exercise.svg) no-repeat top -10px right 20px var(--clr-lime-green);
+  background: url(../../assets/images/icon-exercise.svg) no-repeat top right 20px var(--clr-lime-green);
 }
 
 .time-card.-social {
-  background: url(../../assets/images/icon-social.svg) no-repeat top -10px right 20px var(--clr-violet);
+  background: url(../../assets/images/icon-social.svg) no-repeat top right 20px var(--clr-violet);
 }
 
 .time-card.-self-care {
