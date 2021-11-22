@@ -5,27 +5,27 @@
 }
 
 .user {
-  width: 100%;
   background-color: var(--clr-blue);
   border-radius: 1.5rem;
 }
 
 .user .content {
-  padding: 2.5rem 3rem 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2.5rem 0;
 }
 
 .user .content > img {
-  width: 8rem;
-  height: 8rem;
-  margin-bottom: 3rem;
-  border: solid 2px #fff;
+  width: clamp(7rem, 8rem, 4vw);
+  height: clamp(7rem, 8rem, 4vw);
+  border: solid 3px #fff;
   border-radius: 100%;
 }
 
 .profile-card h1 {
-  font-size: clamp(3.5rem, 4rem, 4vw);
+  font-size: clamp(2.5rem, 4rem, 4vw);
   font-weight: 300;
-  line-height: 4.5rem;
 }
 
 .profile-card h3 {
@@ -36,14 +36,13 @@
 
 .profile-card .length {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  justify-content: space-around;
   gap: 2rem;
   padding: 2.5rem;
 }
 
 .length button {
   color: var(--clr-pale-blue);
-  font-size: clamp(1.4rem, 1.6rem, 2vw);
+  font-size: clamp(1.6rem, 1.8rem, 2vw);
   font-weight: 300;
 }
