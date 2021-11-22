@@ -25,6 +25,7 @@ button {
 
 @media screen and (max-width: 1200px) {
   main {
+    padding: 10rem 0;
     grid-template-columns: 90vw;
     grid-template-areas: "profile-card"
                          "card-wrapper";
