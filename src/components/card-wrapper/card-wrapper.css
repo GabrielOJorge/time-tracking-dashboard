@@ -1,16 +1,14 @@
 .card-wrapper {
   display: grid;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
-.top {
+.card-wrapper .top {
   display: grid;
-  grid-auto-flow: column;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
-.bottom {
+.card-wrapper .bottom {
   display: grid;
-  grid-auto-flow: column;
-  gap: 2rem;
+  gap: 2.5rem;
 }
