@@ -25,6 +25,10 @@ button {
 }
 
 @media (min-width: 1200px) {
+  body {
+    height: 100vh;
+  }
+  
   main {
     display: grid;
     grid-template-columns: 25rem 80rem;
