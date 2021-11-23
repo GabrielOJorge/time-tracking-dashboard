@@ -12,3 +12,12 @@
   display: grid;
   gap: 2.5rem;
 }
+
+@media screen and (min-width: 700px) {
+  .card-wrapper .top {
+    grid-auto-flow: column;
+  }
+  .card-wrapper .bottom {
+    grid-auto-flow: column;
+  }
+}
