@@ -45,6 +45,11 @@
   color: var(--clr-pale-blue);
   font-size: clamp(1.6rem, 1.8rem, 2vw);
   font-weight: 300;
+  transition: color .2s ease-out;
+}
+
+button:hover {
+  color: #fff;
 }
 
 @media screen and (min-width: 1200px) {
