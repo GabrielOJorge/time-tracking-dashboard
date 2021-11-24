@@ -4,6 +4,7 @@
   justify-content: flex-end;
   border-radius: 2rem;
   padding-top: 4rem;
+  min-width: 18rem;
 }
 
 .time {
@@ -42,7 +43,7 @@
 }
 
 .time-card.-play {
-background: url(../../assets/images/icon-play.svg) no-repeat top -3px right 20px var(--clr-soft-blue);
+  background: url(../../assets/images/icon-play.svg) no-repeat top -3px right 20px var(--clr-soft-blue);
 }
 
 .time-card.-study {
@@ -72,3 +73,9 @@ background: url(../../assets/images/icon-play.svg) no-repeat top -3px right 20px
     gap: 1.5rem;
   }
 }
+
+/* @media screen and (min-width: 1200px) {
+  .time-card {
+    min-width: 25rem;
+  }
+} */
